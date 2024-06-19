@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "vite:dev": "vite dev",
+    "vite:build": "vite build",
     "clean": "rm -rf node_modules dist bun.lockb",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
